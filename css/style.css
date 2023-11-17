@@ -1,0 +1,73 @@
+/* global page config */
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.page-frame{
+    padding: 0 20px 0 20px;
+}
+h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Header styling */
+header{
+    height: 40px;
+    width: 100%;
+    /* background-color: blueviolet; */
+
+}
+
+.header-image{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.header-image img{
+    width: 130px;
+}
+nav{
+   display: flex;
+   justify-content: flex-end;
+   transform: translate3d(0,-90px,0);
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 25px;
+    padding-top: 30px;
+    font-size: 14px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Site title style */
+.bookit-intro{
+    margin-top: 30px;
+}
+.bookit-intro h1{
+    text-align: left;
+    
+}
+.bookit-intro h1{
+    font-size: 16px;
+    font-weight: bolder;
+   margin-bottom: 5px;
+
+}
+.intro-subtext{
+    font-size: 14px;
+}
+#town-research{
+    margin-top: 15px;
+}
