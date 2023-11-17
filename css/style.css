@@ -70,4 +70,94 @@ nav ul li a{
 }
 #town-research{
     margin-top: 15px;
+    max-width: 250px;
+    height: 30px;
+    background: white;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px;
+}
+#icon-1 .fa-location-dot{
+    width: 15px;
+    height: 30px;
+    background-color: #f2f2f2;
+    padding: 7px 20px;
+    margin-left: -11px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+
+}
+
+#town-research input{
+    flex:1;
+    background: white;
+    padding: 5px 10px;
+    margin-left: 3px;
+    border:none;
+    outline: none;
+}
+
+::placeholder{
+    color: #000000;
+    font-weight: bold;
+    font-size: 13px;
+}
+#btn-1{
+    border: 0;
+    display: block;
+    padding: 7px 15px;
+    outline: none;
+    background-color: #2169ed;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 600px;
+    cursor: pointer;
+}
+
+/* Filtre styling  */
+
+#filtre{
+    transform: translate3d(-35px,0,0);
+}
+#filtre ul li{
+    display: inline-block;
+    transform: translate3d(0,10px,0);
+    padding-right: 20px;
+    margin-left: 0 ;
+}
+
+#filtre span{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.col-filter{
+    display: inline-block;
+    padding-left: 10px;
+    /* background-color: #2169ed; */
+}
+.col-filter p{
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #ffffff;
+    border: 2px solid #f2f2f2;
+    border-radius: 20px;
+    margin-top: -40px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 15px;   
+}
+
+.icon-incrustation{
+    width: 40px;
+    background-color: #deebff;
+    color: #2169ed;
+    border-radius: 30px;
+    padding: 12px;
+
 }
