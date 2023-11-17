@@ -9,7 +9,7 @@ html,body{
 }
 
 .page-frame{
-    padding: 0 20px 0 20px;
+    padding: 0 40px 0 40px;
 }
 h3{
     font-size: 14px;
@@ -160,4 +160,21 @@ nav ul li a{
     border-radius: 30px;
     padding: 12px;
 
+}
+
+/* Head Value proposition */
+.value{
+    display: flex;
+    gap: 10px;
+}
+.info{
+    width: 20px;
+    /* padding: 15px; */
+    background-color: #ffffff;
+    /* border: 2px solid #f2f2f2; */
+    border-radius: 20px;
+}
+.value span{
+    font-size: 14px;
+    padding-top: 5px;
 }
